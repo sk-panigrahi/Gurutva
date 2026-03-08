@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gurutva"
+version = "0.1.0"
+description = "Quantum field theory in curved spacetime and strong gravity"
+authors = [{name="Suraj Kumar Panigrahi"}]
+dependencies = ["numpy", "scipy", "sympy"]
