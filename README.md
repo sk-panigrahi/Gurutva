@@ -1,3 +1,5 @@
+![Alt text](gurutva/Images/IMG_20260309_114055.png)
+
 # Gurutva
 
 **Gurutva** is a Python library for studying **quantum field theory in curved spacetime and strong gravity**.
