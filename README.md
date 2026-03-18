@@ -92,12 +92,27 @@ gurutva/
 │
 ├── gurutva/
 │   ├── constants.py
+│   │
 │   ├── spacetimes/
 │   │   ├── base.py
 │   │   ├── minkowski.py
 │   │   ├── schwarzschild.py
 │   │   ├── kerr.py
 │   │   └── reissner_nordstrom.py
+│   │
+│   ├── Fields
+│   │   ├── base.py
+│   │   ├── scalar.py
+│   │   ├── vector.py
+│   │   └── tensor.py
+│   │
+│   ├── Particles
+│   │   ├── base.py
+│   │   ├── bosons/ 
+│   │   └── fermions/
+│   │
+│   └── utils
+│       └── tensor_op.py
 │
 ├── examples/
 ├── tests/
@@ -131,12 +146,23 @@ The core library relies on:
 
 ## Contributing
 
-Contributions are welcome. Possible areas include:
+Contributions are very welcome!
+This project is an ongoing effort to build a flexible and powerful framework for studying gravity and quantum fields.
 
-* additional spacetime geometries
-* field equations
-* numerical solvers
-* documentation and examples
+### A note from the author
+
+
+I am currently a Master's student and still learning many aspects of quantum field theory and general relativity. Many of the concepts implemented here are things I am actively studying and exploring.
+
+Because of this, I would genuinely appreciate:
+
+- suggestions for better design or physics implementations  
+- corrections if something is incorrect or incomplete  
+- collaboration in shaping this library into something meaningful  
+
+If you have expertise in this area, your input would be incredibly valuable in helping move this project forward.
+
+
 
 ---
 
@@ -149,3 +175,10 @@ This project is released under the MIT License.
 ## Author
 
 Suraj Kumar Panigrahi
+
+### Contact
+
+Feel free to reach out for collaboration, discussion, or suggestions:
+- **Email:** *panigrahi.sku@gmail.com*
+- **Linkedin:** *[Suraj Kumar Panigrahi](https://www.linkedin.com/in/surajkpanirahi?utm_source=share_via&utm_content=profile&utm_medium=member_android)*
+
